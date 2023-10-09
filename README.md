@@ -9,7 +9,7 @@ A Universal Turing machine (UTM) implementation in Haskell.
 
 Lambda calculus is Turing complete. A universal function accepts a program `f` and input `x` and simulates the computation of `f(x)`.
 
-The Universal Turing Machine will accept the decription of another Machine, `M`, and an input tape, `t`, and returns the reuslt of running `M(t)`.
+The Universal Turing Machine will accept the decription of another Machine, `M`, and an input tape, `t`, and returns the result of running `M(t)`.
 
 ### ALPHABET
 
