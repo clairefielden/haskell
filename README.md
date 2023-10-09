@@ -1,10 +1,48 @@
 # PART A
+
+## Compilation
+```bash
+ghci partA.hs
+# Question 1
+> halve [1,2,3,4]
+# Question 2
+> reverseList ['b', 'c', 'd', 'a']
+# Question 3
+> reverseSecondHalf [5,6,7,8,10,11,12,13]
+# Question 4(a): Guarded Equations
+> safetaila [1,2,3]
+# Question 4(b): Pattern Matching
+> safetailb [1,2,3]
+```
+
+## Output
 ![a](https://github.com/clairefielden/haskell/assets/98583663/c733c1ca-6d72-4b62-96da-2ff808391b0e)
 
 # PART B
+
+## Compilation
+```bash
+ghci partB.hs
+# Question 1
+> eval (App Add (App Add (Val 8) (Val 10)) (App Mul (Val 2) (Val 10)))
+> values (App Add (App Add (Val 8) (Val 10)) (App Mul (Val 2) (Val 5)))
+# Question 2
+> delete 2 [1,2,3,5,2]
+# Question 3
+> perms [1,2,3]
+# Question 4
+> split [1,2,3,4]
+# Question 5
+> exprs [1,2,3]
+# Question 6
+> solve [1,2,3,4] 10
+```
+## Output
+
 ![b](https://github.com/clairefielden/haskell/assets/98583663/d60e0e31-3d5e-4f43-9103-d98bfb9648f2)
 
 ```bash
+# The solution to Question 6 are more clearly defined by the following
 ghci> printSolutions [1,2,3,4] 10
 App Add (App Mul (Val 2) (Val 3)) (Val 4)
 App Add (App Mul (Val 3) (Val 2)) (Val 4)
@@ -175,6 +213,7 @@ App Mul (App Add (Val 4) (App Mul (Val 3) (Val 2))) (Val 1)
 App Add (App Add (Val 4) (App Add (Val 3) (Val 2))) (Val 1)
 App Add (App Add (App Add (Val 4) (Val 3)) (Val 2)) (Val 1)
 ```
+
 # PART C
 # Universal Turing Machine 
 
