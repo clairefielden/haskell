@@ -1,3 +1,18 @@
+# FUNCTIONAL PROGRAMMING ASSIGNMENT 1
+
+## GutHub Page: https://github.com/clairefielden/haskell.git 
+
+## Each part has its own file:
+* partA.hs
+* partB.hs
+* partC.hs
+
+## Additional files:
+* Singular Universal Turing Machine
+* Singular Turing Machine
+* Textfiles: for t=running the UTM
+* TransitionFunction.hs : for printing transition tables
+
 # PART A
 
 ## Compilation
