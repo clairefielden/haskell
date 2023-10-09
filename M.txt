@@ -1,0 +1,22 @@
+; Initial state: Start
+; Final states: Halt, Accept
+; Blank symbol: _
+; No-op symbol: *
+
+;Subtractor
+
+Start _ _ r Start
+Start 1 . r ScanRight
+ScanRight 1 1 r ScanRight
+ScanRight 0 0 r ArgA
+ArgA . . r ArgA
+ArgA _ _ r Accept
+ArgA 1 . l ScanLeft
+ScanLeft . . l ScanLeft
+ScanLeft 0 0 l ArgB
+ArgB 1 1 l ArgB
+ArgB . . r Start
+Start 0 0 r Subtract
+Subtract . _ r Subtract
+Subtract 1 1 r Halt
+
