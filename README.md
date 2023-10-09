@@ -10,7 +10,7 @@
 ## Additional files:
 * Singular Universal Turing Machine
 * Singular Turing Machine
-* Textfiles: for t=running the UTM
+* Textfiles: for running the UTM
 * TransitionFunction.hs : for printing transition tables
 
 # PART A
