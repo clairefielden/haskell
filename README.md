@@ -110,7 +110,7 @@ cat myTuring.txt
     Subtract 1 1 r Halt
 ```
 
-```json
+```bash
 //Argument 2: 2 unary numbers from the user
 
 > Argument 1:
@@ -120,8 +120,7 @@ cat myTuring.txt
 > Tape: 
 _11101_
 ```
-
-### INSERT IMAGE
+![input](https://github.com/clairefielden/haskell/assets/98583663/f660bf29-180e-4f8a-8c91-42df732899cc)
 
 ## The Turing Machine
 
@@ -148,16 +147,14 @@ The Turing Machine halts if no instruction for current state and input symbol ex
 | `_11101_`  |  `_..10.__`  |**ACCEPT**|
 | `_10111_`  |  `_.0_11_`  | **HALT** |
 
-## INSERT IMAGE
-## INSERT IMAGE
-
 #### INSTRUCTION FORMAT
 ```haskell
 transition :: Action -> Maybe Symbol -> (Action, Symbol, Direction)
 ```
 `Instructions` take a `State` and a `Symbol` as input and map the machine to its next `transition`. This is based on the transition table.
 
-## INSERT IMAGE
+![table](https://github.com/clairefielden/haskell/assets/98583663/6e21b11e-c30c-45f1-90f8-89aceb13fb20)
+
 
 #### MACHINE FORMAT:
 
@@ -173,7 +170,7 @@ A Turing Machine is a quintuple (Q, Σ, δ, q0, h) where
 
 The instruction set can also be expressed using a State Transition Diagram. Please note that for the sake of reaability, blanks are represented by `B` and skips are represented by `*`.
 
-## INSERT IMAGE
+![fsm](https://github.com/clairefielden/haskell/assets/98583663/1833fde2-b738-463c-842e-a92c84f50f19)
 
 ## USAGE
 1. To run the Turing Machine:
@@ -184,5 +181,14 @@ The instruction set can also be expressed using a State Transition Diagram. Plea
 > `> main` <br>
 
 #### Example Turing Machine
+![turing](https://github.com/clairefielden/haskell/assets/98583663/b2d3dd8e-16d1-48ca-8930-ec3facdbc947)
 
 #### Example UTM
+
+![UTM](https://github.com/clairefielden/haskell/assets/98583663/cbc45ee2-e3fc-4e0d-b7d9-c174098d84ce)
+
+
+## Author
+Claire Fielden
+FLDCLA001@myuct.ac.za
+
