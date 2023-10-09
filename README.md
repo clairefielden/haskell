@@ -1,7 +1,8 @@
 # PART A
-
+![a](https://github.com/clairefielden/haskell/assets/98583663/c733c1ca-6d72-4b62-96da-2ff808391b0e)
 
 # PART B
+![b](https://github.com/clairefielden/haskell/assets/98583663/d60e0e31-3d5e-4f43-9103-d98bfb9648f2)
 
 ```bash
 ghci> printSolutions [1,2,3,4] 10
