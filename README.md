@@ -114,9 +114,9 @@ cat myTuring.txt
 //Argument 2: 2 unary numbers from the user
 
 > Argument 1:
-1
-> Argument 2:
 111
+> Argument 2:
+1
 > Tape: 
 _11101_
 ```
